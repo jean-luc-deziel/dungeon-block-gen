@@ -1,0 +1,1140 @@
+== CS
+001 Water h1
+002 Water Lily 1 h1
+003 Water Lily 2 h1
+004 Water Lily Flower h1
+005 Water Branches 1 h1
+006 Water Branches 2 h1
+007 Water Trap h1
+008 Water Vortex h1
+009 Water Tall Grass h2
+010 Water Lit Torch h2
+011 Water Unlit Torch h2
+012 Water Bones 1 h1
+013 Water Bones 2 h1
+014 Water Rock 1 h4
+015 Water Rock 2 h6
+016 Water Rock 3 h8
+017 Wrecked Boat 1 h2
+018 Wrecked Boat 2 h2
+019 Crocodil Head 1 h1
+020 Crocodil Head 2 h1
+021 Crocodil Tail h1
+022 Long Water Grass 1 1x2 h1
+023 Long Water Grass 2 1x2 h1
+024 Long Water Tail Bone 1x2 h2
+025 Long Water Body Bone 1x2 h2
+026 Water Straight 1 h1
+027 Water Straight 2 h1
+028 Water Straight Tall Grass 2 h1
+029 Water Straight Tall Grass 2 h1
+030 Water Angle h1
+031 Water Angle Tall Grass 1 h2
+032 Water Angle Tall Grass 2 h2
+033 Water Corner h1
+034 Water Corner Tall Grass h1
+035 Grass h1
+036 Tall Grass 1 h2
+037 Tall Grass 2 h2
+038 Grass Trap h2
+039 Water Dock h1
+040 Dock 1 h1
+041 Dock 2 h1
+042 Dock Grass h1
+043 Broken Dock h1
+044 Tentacles Dock h4
+045 Stairs h4
+046 Stairs Grass h4
+047 Raised Dock h4
+048 Broken Raised Dock 1 h4
+049 Broken Raised Dock 2 h2
+050 Raised Dock Straight 1 h6
+051 Raised Dock Straight 2 h6
+052 Raised Dock Straight Broken h6
+053 Raised Dock Straight Grass 1 h6
+054 Raised Dock Straight Grass 2 h6
+055 Raised Dock Straight Wheel h6
+056 Raised Dock Angle h6
+057 Raised Dock Angle Grass h6
+058 Raised Dock Corridor h6
+059 Raised Dock Straight Lit Torch h8
+060 Raised Dock Angle Lit Torch h8
+061 Raised Dock Corridor Lit Torch h8
+062 Raised Dock Straight Unlit Torch h8
+063 Raised Dock Angle Unlit Torch h8
+064 Raised Dock Corridor Unlit Torch h8
+065 Raised Dock Straight Skulls h6
+066 Raised Dock Straight Candles h6
+067 Raised Dock Angle Skulls 1 h6
+068 Raised Dock Angle Skulls 2 h12
+069 Raised Dock Corridor Skulls h6
+070 Palisade Straight 1 h6
+071 Palisade Straight 2 h6
+072 Broken Palisade Straight h6
+073 Palisade Angle h6
+074 Palisade Angle Skulls h6
+075 Palisade Corner h6
+076 Water Small Mushrooms h6
+077 Water Medium Mushrooms h6
+078 Water Tall Mushrooms h6
+079 Grass Small Mushrooms h6
+080 Grass Medium Mushrooms h6
+081 Grass Tall Mushrooms h6
+082 Grass Small Tree 2x2 h6
+083 Grass Medium Tree 2x2 h8
+084 Grass Tall Tree 2x2 h8
+085 Grass Small Tree Branches 2x2 h6
+086 Grass Medium Tree Branches 2x2 h8
+087 Grass Tall Tree Branches 2x2 h8
+088 Water Small Tree 2x2 h8
+089 Water Medium Tree 2x2 h8
+090 Water Tall Tree 2x2 h8
+091 Water Small Tree Branches 2x2 h8
+092 Water Medium Tree Branches 2x2 h8
+093 Water Tall Tree Branches 2x2 h8
+094 Water Grass Small Tree 2x2 h6
+095 Water Grass Medium Tree 2x2 h8
+096 Water Grass Tall Tree 2x2 h12
+097 Water Grass Small Tree Branches 2x2 h8
+098 Water Grass Medium Tree Branches 2x2 h8
+099 Water Grass Tall Tree Branches 2x2 h8
+100 Grass Faces Tree 2x2 h8
+101 Water Faces Tree 2x2 h8
+102 Ground 1 h1
+103 Ground 2 h1
+104 Rotten Floor 1 h1
+105 Rotten Floor 2 h1
+106 Ground Tree h2
+107 Table h2
+108 Table Symbol h2
+109 Wall 1 h4
+110 Wall 2 h4
+111 Angle h4
+112 Window h4
+113 Door h6
+114 Door Symbols h6
+115 Wall Ruin 1 h4
+116 Wall Ruin 2 h6
+117 Angle Ruin h4
+118 Shelves 1 h6
+119 Shelves 2 h6
+120 Fireplace Lit h4
+121 Fireplace Lit Symbols h4
+122 Fireplace Unlit h4
+123 Fireplace Unlit Symbols h4
+124 Candles Lit h4
+125 Candles Unlit h4
+126 Bed Angle 1x2 h4
+127 Bed Skulls Angle 1x2 h4
+128 Broken Bed 1x2 h4
+129 Tall Wall 1 h9
+130 Tall Wall 2 h9
+131 Tall Angle h9
+132 Tall Window h9
+133 Tall Door h9
+134 Tall Door Symbols h9
+135 Tall Angle Ruin 1 h9
+136 Tall Angle Ruin 2 h6
+137 Tall Shelves 1 h9
+138 Tall Shelves 2 h9
+139 Tall Candles Lit h9
+140 Tall Candles Unlit h9
+141 Tall Fireplace Lit h9
+142 Tall Fireplace Lit Symbols h9
+143 Tall Fireplace Unlit h9
+144 Tall Fireplace Unlit Symbols h9
+145 Tall Bed Angle 1x2 h9
+146 Tall Bed Symbols Angle 1x2 h9
+147 Roof 1 3x3 h6
+148 Roof 2 3x3 h6
+149 Roof Window 3x3 h6
+150 Roof Branches 3x3 h6
+151 Roof Window Branches 3x3 h6
+152 Roof Witch Tower 3x3 h8
+== DE1
+001 Ground h1
+002 Wall 1 h4
+003 Wall 2 h4
+004 Angle h4
+005 Round Angle h4
+006 Diagonal h4
+007 Corridor h4
+008 Lava Ground h1
+009 Lava Wall 1 h4
+010 Lava Wall 2 h4
+011 Lava Angle h4
+012 Melting Ground h1
+013 Melting Wall 1 h4
+014 Melting Wall 2 h4
+015 Melting Angle h4
+016 Lava h1
+017 Lava Stones 1 h1
+018 Lava Stones 2 h1
+019 Lava Rocks Path h1
+020 Lava Straight h1
+021 Lava T-Shaped h1
+022 Lava Corridor 1 h1
+023 Lava Corridor 2 h1
+024 Lava Angle h1
+025 Lava Angle Corner 1 h1
+026 Lava Angle Corner 2 h1
+027 Lava End h1
+028 Lava 1 Corner h1
+029 Lava 2 Corners h1
+030 Lava 3 Corners h1
+031 Lava 4 Corners h1
+032 Lava Path h1
+033 Lava Fire h2
+034 Lavafall h8
+035 Bones River 1 h1
+036 Bones River 2 h1
+037 Bones River Straight h1
+038 Bones River T-Shaped h1
+039 Bones River Corridor 1 h1
+040 Bones River Corridor 2 h1
+041 Bones River Angle h1
+042 Bones River Angle Corner h1
+043 Bones River End h1
+044 Bones River 1 Corner h1
+045 Bones River 2 Corners h1
+046 Bones River 3 Corners h1
+047 Bones River 4 Corners h1
+048 Bones Ground 1 h1
+049 Bones Ground 2 h1
+050 Bones Wall 1 h4
+051 Bones Wall 2 h4
+052 Bones Angle h4
+053 Skeletons Wall 1 h4
+054 Skeletons Wall 2 h4
+055 Skeletons Angle h4
+056 Chest Closed h2
+057 Chest Treasure h2
+058 Chest Open h2
+059 Wall Chest Closed h4
+060 Wall Chest Treasure h4
+061 Wall Chest Open h4
+062 Angle Chest Closed h4
+063 Angle Chest Treasure h4
+064 Angle Chest Open h4
+065 Metal Wall 1 h4
+066 Metal Wall 2 h4
+067 Torch Lit h4
+068 Torch Unlit h4
+069 Metal Angle h4
+070 Metal Round Angle h4
+071 Metal Diagonal h4
+072 Metal Corridor h4
+073 Closed Hole Pit Trap h1
+074 Open Hole Pit Trap h1
+075 Closed Saw Trap h1
+076 Open Saw Trap h1
+077 Closed Spike Trap h1
+078 Open Spike Trap h1
+079 Open Bear Trap h1
+080 Closed Bear Trap h1
+081 Wall Closed Spike Trap h4
+082 Wall Open Spike Trap h4
+083 Wall Closed Spike Trap h4
+084 Wall Open Spike Trap h4
+085 Wall Open Bear Trap h4
+086 Wall Closed Bear Trap h4
+087 Dragon Fountain h6
+088 Fire Dragon Fountain h4
+089 Stairs Down h1
+090 Stairs h4
+091 Angle Stairs h4
+092 Ladder Down h1
+093 Ladder h6
+094 Tall Ladder h8
+095 Door h6
+096 Door Left h6
+097 Door Right h6
+098 Gear Door h6
+099 Mirror h8
+100 Magic Mirror h6
+101 Dragon Carved Wall 1x2 h8
+102 Big Clock 1x2 h6
+103 Pentacle 2x2 h1
+104 Pentacle Spirits 2x2 h1
+105 Telescope 2x2 h8
+106 Stone Forge 1x3 h6
+107 Metal Bridge 1x3 h3
+108 Metal Bridge Broken h3
+109 Open Drawbridge 1x2 h8
+110 Closed Drawbridge 3x2 h8
+111 Column h9
+112 Column Key h9
+113 Metal Column h9
+114 Metal Column Key h9
+115 Column Broken h6
+116 Tall Rock h6
+117 Red Dragon h6
+118 Blue Dragon h6
+119 Green Dragon h6
+120 White Dragon h6
+121 Black Dragon h6
+122 Dragon Broken h4
+123 Dragonborn h6
+124 Dragon Skull 2x3 h10
+125 Dragon Altar 1x2 h2
+126 Draped Altar 1x2 h2
+127 Broken Dragon Wall 1 1x2 h4
+128 Broken Dragon Wall 2 1x2 h4
+129 Metal Low Wall 1 h1
+130 Metal Low Wall 2 h1
+131 Metal Low Angle h1
+132 Arch h6
+133 Death Statue h4
+134 Anvil h2
+135 Ground Tile h1
+== ET
+001 Ground h1
+002 Cracked Ground 1 h1
+003 Cracked Ground 2 h1
+004 Paved Ground 1 h1
+005 Paved Ground 2 h1
+006 Patterned Ground 1 h1
+007 Patterned Ground 2 h1
+008 Wall 1 h4
+009 Wall 2 h4
+010 Angle h4
+011 Corner h4
+012 Diagonal h4
+013 Corridor h4
+014 Corridor Angle h4
+015 Corridor End h4
+016 Wall Hole h4
+017 Window h4
+018 Diagonal Interior Exterior h4
+019 Stairs h4
+020 Angle Ladder h4
+021 Angle Ladder Down h4
+022 Wall Lit Torch h4
+023 Wall Unlit Torch h4
+024 Trophy Glyph Wall h4
+025 Scarab Glyph Wall h4
+026 Glyphs Wall 1 h4
+027 Glyphs Wall 2 h4
+028 Glyphs Wall 3 h4
+029 Glyphs Angle h4
+030 Wall Lit Fire h4
+031 Wall Unlit Fire h4
+032 Treasure Ground 1 h1
+033 Treasure Ground 2 h1
+034 Treasure Ground Vases h1
+035 Treasure Wall Pharaoh h4
+036 Treasure Wall Chest h4
+037 Treasure Wall Anubis h4
+038 Treasure Wall Pieces 1 h4
+039 Treasure Wall Pieces 2 h4
+040 Treasure Angle h4
+041 Treasure Corner h4
+042 Treasure Diagonal h4
+043 Ground Vases h1
+044 Wall Vases 1 h4
+045 Wall Vases 2 h4
+046 Ground Snake Glyph h1
+047 Ground Egyptian Glyph h1
+048 Ground Eye Glyph h1
+049 Ground Stake Trap h1
+050 Sand Wall 1 h4
+051 Sand Wall 2 h4
+052 Sand Wall 3 h4
+053 Sand Angle h4
+054 Sand h1
+055 Sand Little Rocks 1 h1
+056 Sand Little Rocks 2 h1
+057 Cactus 1 h4
+058 Cactus 2 h4
+059 Cactus 3 h4
+060 Sand Little Buttress h4
+061 Sand Big Rocks 1 h2
+062 Sand Big Rocks 2 h2
+063 Sand Big Rocks 3 h2
+064 Sand Plant 1 h2
+065 Sand Plant 2 h2
+066 Sand Plant 3 h2
+067 Sand Hole h1
+068 Sand Monster h1
+069 Sand Tornado h6
+070 Sand Wooden Door h6
+071 Sand Wall Stones h4
+072 Sand Wall Scaffolding 1 h4
+073 Sand Wall Scaffolding 2 h4
+074 Sand Wall Scaffolding 3 h4
+075 Sand Angle Scaffolding h4
+076 Sand Buttress h8
+077 Sand Shelter 1 h4
+078 Sand Shelter 2 h4
+079 Sand Fire h2
+080 Snake 1 h1
+081 Snake 2 h1
+082 Closed Scarab Sarcophagus 1x2 h2
+083 Opened Scarab Sarcophagus 1x2 h2
+084 Mummy Scarab Sarcophagus 1x2 h2
+085 Closed Pharaoh Sarcophagus h6
+086 Opened Pharaoh Sarcophagus h8
+087 Treasure Pharaoh Sarcophagus h8
+088 Mummy Pharaoh Sarcophagus h8
+089 Horus Statue Spear h6
+090 Horus Statue Scepter h6
+091 Broken Horus Statue h5
+092 Opened Entrance h8
+093 Closed Entrance h8
+094 Door h8
+095 Pyramid Top h2
+096 Pyramid Slope h4
+097 Pyramid Angle h4
+098 Water h1
+099 Water Lily h1
+100 Double Water Lily h1
+101 Water Lily Flower h1
+102 Water Sand Straight 1 h1
+103 Water Sand Straight 2 h1
+104 Water Sand Angle 1 h1
+105 Water Sand Angle 2 h1
+106 Water Sand Corner h1
+107 Long Stairs 2x1 h4
+108 Long Stairs Left Border 2x1 h4
+109 Long Stairs Right Border 2x1 h4
+110 Long Stairs Both Borders 2x1 h4
+111 Long Stairs Angle 2x2 h4
+112 Sand Ladder h8
+113 Stairs Down h4
+114 Tall Stairs Down h9
+115 Tall Wall 1 h9
+116 Tall Wall 2 h9
+117 Tall Angle h9
+118 Tall Angle Key h9
+119 Tall Corner h9
+120 Tall Diagonal h9
+121 Tall Corridor h9
+122 Tall Corridor Angle h9
+123 Tall Corridor End h9
+124 Tall Wall Hole h9
+125 Tall Window h9
+126 Tall Buttress h9
+127 Wall Tall Lit Fire h9
+128 Wall Tall Unlit Fire h9
+129 Tall Wall Trophy Glyph h9
+130 Tall Wall Scarab Glyph h9
+131 Tall Wall Glyphs 1 h9
+132 Tall Wall Glyphs 2 h9
+133 Tall Wall Glyphs 3 h9
+134 Tall Angle Glyphs h9
+135 Tall Angle Glyphs Key h9
+136 Tall Wall Vases 1 h9
+137 Tall Wall Vases 2 h9
+138 Tall Wall Treasure Chest h9
+139 Tall Wall Treasure Pharaoh h9
+140 Tall Wall Treasure Anubis h9
+141 Tall Wall Treasure Pieces 1 h9
+142 Tall Wall Treasure Pieces 2 h9
+143 Tall Angle Treasure h9
+144 Tall Angle Treasure Key h9
+145 Tall Corner Treasure h9
+146 Tall Diagonal Treasure h9
+147 Tall Horus Spear h9
+148 Tall Horus Scepter h9
+149 Tall Broken Horus h9
+150 Tall Closed Pharaoh Sarcophagus h9
+151 Tall Opened Pharaoh Sarcophagus h9
+152 Tall Treasure Pharaoh Sarcophagus h9
+153 Tall Mummy Pharaoh Sarcophagus h9
+154 Tall Opened Entrance h9
+155 Tall Closed Entrance h9
+156 Tall Door h9
+157 Tall Angle Ladder h9
+158 Tall Angle Ladder Down h8
+159 Tall Diagonal Exterior Interior h9
+160 Tall Wall Lit Torch h9
+161 Tall Wall Unlit Torch h9
+162 Broken Column h6
+163 Column h9
+164 Column Key h9
+165 Tall Column Key h12
+166 Obelisk h9
+167 Broken Obelisk h6
+168 Anubis 2x1 h4
+169 Sphinx 3x2 h6
+170 Unloaded Ancient Crane 2x3 h8
+171 Loaded Ancient Crane 2x3 h8
+172 Roof Border Straight h1
+173 Broken Roof Border Straight h1
+174 Roof Border Angle h4
+175 Roof Ruin 1X1 h3
+176 Roof Ruin 1X2 1x2 h3
+177 Roof Ruin 1X3 1x3 h3
+178 Roof Ruin 1X4 1x4 h3
+179 Pattern Roof 2X3 2x3 h3
+180 Pattern Roof 3X3 3x3 h3
+181 Pattern Roof 3X6 3x6 h3
+182 Sand Ruin 1 h2
+183 Sand Ruin 2 h4
+184 Wall Ruin 1 h4
+185 Wall Ruin 2 h4
+186 Buttress Ruin h4
+187 Angle Ruin h8
+811 Level Grids Pattern 1X1 h3
+812 Level Grids Pattern 1X2 1x2 h3
+813 Level Grids Pattern 1X3 1x3 h3
+814 Level Grids Pattern 1X4 1x4 h3
+822 Level Grids Pattern 2x2 2x2 h3
+823 Level Grids Pattern 2x3 2x3 h3
+833 Level Grids Pattern 3X3 3x3 h3
+836 Level Grids Pattern 3X6 3x6 h3
+844 Level Grids Pattern 4X4 4x4 h3
+== HG
+001 Ground 1 h1
+002 Ground 2 h1
+003 Ground 3 h1
+004 Ground Chains 1 h1
+005 Ground Chains 2 h1
+006 Ground Chains 3 h1
+007 Low Wall 1 h2
+008 Low Wall 2 h2
+009 Low Wall Debris h2
+010 Low Angle h2
+011 Fountain Empty h4
+012 Fountain Water h4
+013 Fountain Treasure h4
+014 Light h6
+015 Low Fences Wall 1 h4
+016 Low Fences Wall h4
+017 Low Fences Angle h4
+018 Low Fences Angle Debris h4
+019 Fences Up Right h6
+020 Fences Up Left h6
+021 Fences Door h6
+022 Fences Wall h8
+023 Fences Wall Debris h8
+024 Fences Angle h8
+025 Fences Angle Debris h8
+026 Fences Wall Right h8
+027 Fences Wall Left h8
+028 Gate Left h8
+029 Gate Right h8
+030 Stairs h4
+031 Level h3
+032 Balcony h2
+033 Balcony Broken h2
+034 Balcony Angle h2
+035 Obelisk h8
+036 Tomb 2 h8
+037 Tomb 3 h2
+038 Tomb 4 h2
+039 Tomb 5 h2
+040 Tomb 6 h3
+041 Tomb 7 h2
+042 Tomb 8 h4
+043 Tomb 9 h3
+044 Tomb 10 h4
+045 Tomb 11 h6
+046 Tomb 12 h4
+047 Tomb 13 h2
+048 Tomb 14 h4
+049 Tomb 15 h4
+050 Tomb 16 h4
+051 Tomb 17 h3
+052 Tomb 18 h4
+053 Tomb 19 h4
+054 Tomb 20 h5
+055 Tomb 21 h5
+056 Tree 1 h2
+057 Tree 2 h5
+058 Tree 3 h10
+059 Tree 4 h12
+060 Statue 1 h7
+061 Statue 2 h7
+062 Vase Treasure h4
+063 Vase 1 h5
+064 Vase 2 h8
+065 Mausoleum Treasure h8
+066 Mausoleum Skulls h8
+067 Mausoleum h8
+068 Double Mausoleum 1x2 h8
+069 Soil Ground h1
+070 Closed Coffin 1x2 h4
+071 Opened Coffin 1x2 h2
+072 Coffin Hole 1x2 h1
+073 Magic Coffin 1x2 h2
+074 Knight Coffin 1x2 h4
+075 Crypt Ground 1 h1
+076 Crypt Ground 2 h1
+077 Crypt Ground 3 h1
+078 Crypt Ground Broken 1 h1
+079 Crypt Ground Broken 2 h4
+080 Crypt Ground Broken 3 h1
+081 Book h4
+082 Bench h4
+083 Round Bench h2
+084 Table h3
+085 Table Symbol h3
+086 Crypt wall h4
+087 Crypt Broken Wall h4
+088 Crypt Wall Vase h4
+089 Crypt Wall Shelf h4
+090 Crypt Wall Latin 1 h4
+091 Crypt Wall Latin 2 h4
+092 Crypt Wall Skeleton h4
+093 Crypt Wall Skulls 1 h4
+094 Crypt Wall Skulls 2 h4
+095 Crypt Angle h4
+096 Crypt Angle Skulls h4
+097 Crypt Trap On h4
+098 Crypt Trap Off h4
+099 Crypt Light On h4
+100 Crypt Light Off h4
+101 Crypt Window h8
+102 Tall Crypt Wall h9
+103 Tall Crypt Broken Wall h9
+104 Tall Crypt Wall Debris h9
+105 Tall Crypt Wall Latin h9
+106 Tall Crypt Wall Skeleton h9
+107 Tall Crypt Wall Skulls h9
+108 Tall Crypt Wall Vases h9
+109 Tall Crypt Wall Shelf h9
+110 Tall Crypt Wall Flag h9
+111 Tall Crypt Wall Flag Skulls h9
+112 Tall Crypt Window h9
+113 Tall Crypt Trap On h9
+114 Tall Crypt Trap Off h9
+115 Tall Crypt Light On h9
+116 Tall Crypt Light Off h9
+117 Tall Crypt Angle h9
+118 Tall Crypt Angle Skulls h9
+119 Crypt Door h7
+120 Tall Crypt Door h9
+121 Crypt Arch Closed h8
+122 Crypt Arch h9
+123 Crypt Arch Angle h9
+124 Catacombs Arch 1 h8
+125 Catacombs Arch 2 h8
+126 Catacombs Ground 1 h1
+127 Catacombs Ground 2 h1
+128 Catacombs Wall 1 h4
+129 Catacombs Wall 2 h4
+130 Catacombs Wall Debris h4
+131 Catacombs Light h4
+132 Catacombs Trap h4
+133 Catacombs Angle 1 h4
+134 Catacombs Angle 2 h4
+135 Catacombs Diagonal h4
+136 Catacombs Corner h4
+137 Catacombs Stairs h4
+138 Big Fountain Empty 2x2 h4
+139 Big Fountain Water 2x2 h4
+140 Big Fountain Empty Roof 2x2 h12
+141 Big Fountain Water Roof 2x2 h12
+142 Thin Column h9
+143 Thin Column Key h9
+144 Column h9
+145 Column Key h9
+146 Mausoleum Roof 3x3 h7
+147 Mausoleum Tall Roof 3x3 h22
+148 Mausoleum Roof Angle 3x3 h4
+149 Cemetery Entrance 1x4 h14
+== IS
+001 Ground h1
+002 Wall 1 h1
+003 Wall 2 h1
+004 Window h7
+005 Acid Wall h4
+006 Airing Wall h4
+007 Wall Light h4
+008 Angle Light h4
+009 Angle h4
+010 Cables Wall h4
+011 Cables Angle h4
+012 Acid Angle h4
+013 Acid Window h6
+014 Wardrobe 1 h7
+015 Wardrobe 2 h6
+016 Wardrobe 3 h6
+017 Lockers 1 h6
+018 Lockers 2 h6
+019 Lockers 3 h6
+020 Lockers 4 h6
+021 Medical Bed 1 1x2 h4
+022 Medical Bed 2 1x2 h4
+023 Medical Cart h4
+024 Kitchen Wall 1 h4
+025 Kitchen Wall 2 h4
+026 Kitchen Wall 3 h4
+027 Chair h2
+028 Table h3
+029 Table Food 1 h3
+030 Table Food 2 h3
+031 Bed 2x1 h6
+032 Angle Bed 1 2x1 h6
+033 Angle Bed 2 1x2 h6
+034 Cryogenic Bed Closed h6
+035 Cryogenic Bed Opened h6
+036 Cryogenic Bed Broken h6
+037 Machine h6
+038 Plant h2
+039 Wall Plant h4
+040 Box h2
+041 Wall Weapons 1 h4
+042 Wall Weapons 2 h4
+043 Angle Weapons h4
+044 Tunnel Basic Angle h4
+045 Tunnel Corner h4
+046 Acid Door h6
+047 Acid Tunnel Angle h4
+048 Level h3
+049 Stairs h4
+050 Balcony Ground h1
+051 Balcony 1 h2
+052 Balcony 2 h2
+053 Balcony Angle h2
+054 Ladder Down h1
+055 Ladder h8
+056 Tunnel Ground h1
+057 Tunnel Wall h4
+058 Tunnel Wall Box h4
+059 Tunnel Angle 1 h4
+060 Tunnel Angle 2 h4
+061 Tunnel Angle 3 h4
+062 Tunnel Door h7
+063 Tunnel Window h6
+064 Captain Chair 1 h2
+065 Captain Chair 2 h2
+066 Computer 1 h2
+067 Computer 2 h2
+068 Computer 3 h2
+069 Computer 4 h2
+070 Cockpit Window 1 h8
+071 Cockpit Window 2 h8
+072 Cockpit Window 3 h8
+073 Cockpit Window Left 1 h8
+074 Cockpit Window Left 2 h8
+075 Cockpit Window Left 3 h8
+076 Cockpit Window Right 1 h8
+077 Cockpit Window Right 2 h8
+078 Cockpit Window Right 3 h8
+079 Wing 1 h4
+080 Wing 2 h4
+081 Wing 3 h4
+082 Wing 4 h4
+083 Wing Antenna h4
+084 Wing Ground 1 h1
+085 Wing Ground 2 h1
+086 Wing and Space 1 h1
+087 Wing and Space 2 h1
+088 Space h1
+089 Stars 1 h1
+090 Stars 2 h1
+091 Stars 3 h1
+092 Stars 4 h1
+093 Space Rails h2
+094 Space Rails Broken h2
+095 Space Rails Angle h2
+096 Space Rails T-Shaped h2
+097 Space Rails X-Shaped h2
+098 Asteroid 1 h2
+099 Asteroid 2 h2
+100 Asteroid 3 h2
+101 Big Asteroid 2x2 h4
+102 Big Reactor 1 2x2 h8
+103 Big Reactor 2 2x1 h8
+104 Small Reactor h6
+105 Platform h4
+106 Platform Symbol h4
+107 Platform Airing h4
+108 Platform Opened 1 h4
+109 Platform Opened 2 h4
+110 Platform Opened 3 h4
+111 Platform Ladder h4
+112 Platform Mecha 1 h4
+113 Platform Mecha 2 h4
+114 Platform Mecha 3 h4
+115 Machine Gun 2x2 h10
+116 Diagonal Wall h4
+117 Ground Teleporter h1
+118 Garage Ground 2 h1
+119 Ground Hole h1
+120 Garage Ground Symbol 1 h1
+121 Garage Ground Symbol 2 h1
+122 Ground Airing h1
+123 Garage Machine 1 1x2 h8
+124 Garage Machine 2 1x2 h8
+125 Garage Machine 3 1x2 h8
+126 Column Broken h6
+127 Column h8
+128 Column Key h9
+130 Grid Garage Ground h1
+131 Ladder Classic Ground h6
+132 Box Classic Ground h3
+133 Box Wall h4
+134 Indoor Machine Gun h3
+135 Indoor Machine Gun Right h3
+136 Indoor Machine Gun Left h3
+137 Broken Indoor Machine Gun h3
+== LT
+001 Straight 2x2 h1
+002 Straight Level 2x2 h4
+003 Straight Skulls 2x2 h1
+004 Straight Skulls Level 2x2 h4
+005 Straight Light 2x2 h1
+006 Straight Light Level 2x2 h4
+007 Straight Ivy 2x2 h1
+008 Straight Ivy Level 2x2 h4
+009 Straight Leaves 2x2 h1
+010 Straight Leaves Level 2x2 h4
+011 Straight Wavy 2x2 h1
+012 Straight Wavy Level 2x2 h4
+013 Angle 2x2 h1
+014 Angle Level 2x2 h4
+015 Angle Skulls 2x2 h1
+016 Angle Skulls Level 2x2 h4
+017 Angle Ivy 2x2 h1
+018 Angle Ivy Level 2x2 h4
+019 Angle Leaves 2x2 h1
+020 Angle Leaves Level 2x2 h4
+021 Double Angles 2x2 h1
+022 Double Angles Level 2x2 h4
+023 Y Shaped Cross Angle 2x2 h1
+024 Y Shaped Cross Angle Level 2x2 h4
+025 Cross Angle Right 2x2 h1
+026 Cross Angle Right Level 2x2 h4
+027 Cross Angle Left 2x2 h1
+028 Cross Angle Left Level 2x2 h4
+029 X Shaped Cross Angle 2x2 h1
+030 X Shaped Cross Angle Level 2x2 h4
+031 X Shaped Cross 2x2 h1
+032 X Shaped Cross Level 2x2 h4
+033 X Shaped Cross Slope 2x2 h1
+034 X Shaped Cross Slope Level 2x2 h4
+035 Slope 2x2 h1
+036 Slope Level 2x2 h5
+037 Springboard Low 2x2 h1
+038 Springboard Low Level 2x2 h5
+039 Springboard High 2x2 h1
+040 Springboard High Level 2x2 h5
+041 Long Rock Bridge 2x4 h1
+042 Long Rock Debris Bridge 2x4 h1
+043 Long Trap Bridge 2x4 h1
+046 Short Ivy Bridge Short 2x2 h1
+052 Starter 4 Ways 2x2 h6
+053 Starter One Way 2x2 h4
+054 Finish 4 Ways 2x2 h1
+055 Finish 4 Ways Level 2x2 h4
+056 Finish 1 Way 2x2 h1
+057 Finish 1 Way Level 2x2 h4
+058 Level 1 2x2 h1
+060 Level 3 2x2 h4
+062 Ground 2x2 h1
+063 Ground Rock 1 2x2 h1
+064 Ground Rock 2 2x2 h1
+065 Ground Skulls 2x2 h1
+066 Ground Crystals 2x2 h1
+067 Ground Trap 2x2 h1
+068 Ground Plant 2x2 h1
+069 Ground Carnivorous Plant 2x2 h2
+070 Temple Stairs 2x2 h7
+071 Temple Stairs Skulls 2x2 h7
+072 Temple Stairs Ivy 2x2 h7
+073 Temple Angle 2x2 h7
+074 Temple Angle Skulls 2x2 h7
+075 Temple Angle Ivy 2x2 h7
+077 Switch P1 2x2 h1
+078 Trampoline 2x2 h1
+079 Straight Aztec Head 2x2 h8
+080 Straight Aztec Head Hole 2x2 h3
+081 Fire Slope 2x2 h6
+082 Vortex Monster 2x2 h1
+083 Snake 2x2 h7
+084 Snake Decoration 2x2 h7
+085 Spider 2x2 h6
+086 Spider Decoration 2x2 h6
+087 Giant Aztec Head 2x2 h8
+088 Giant Aztec Head Decoration 2x2 h8
+089 Tree Of Destiny 2x2 h10
+090 Tree Of Destiny Decoration 2x2 h10
+091 Tube Block Straight 2x2 h4
+092 Tube Block Angle 2x2 h4
+093 Tube Block Hole 2x2 h4
+094 Tube Block Straight to Hole 2x2 h4
+095 Tube Block Hole to Straight 2x2 h4
+096 Level Full 1 2x2 h1
+098 Level Full 3 2x2 h4
+100 Level Full Ivy 3 2x2 h4
+== TS
+001 Wall Basic h4
+002 Wall Debris 1 h4
+003 Wall Debris 2 h4
+004 Wall Pipes 1 h4
+005 Wall Pipes 2 h4
+006 Wall Pipes 3 h4
+007 Wall Broken h4
+008 Wall Round Border Pipe h4
+009 Wall Round Border h4
+010 Wall Wood 1 h4
+011 Wall Wood 2 h4
+012 Wall Wood Corner h4
+013 Small Wall h1
+014 Small Wall Angle h1
+015 Door 1 h5
+016 Door 2 h5
+017 Door Pipe h5
+018 Tunnel Door h7
+019 Ground Basic h1
+020 Ground 1 h1
+021 Ground 2 h1
+022 Ground Hole h1
+023 Ground Poison Trap h1
+024 Ground Grid h1
+025 Corner Wood h4
+026 Corner Pipe Left h4
+027 Corner Pipe Right h4
+028 Wall Window h5
+029 Angle 1 h4
+030 Angle 2 h4
+031 Wall Angle Pipe 1 h4
+032 Wall Angle Pipe 2 h4
+033 Wall Fountain Skulls h4
+034 Wooden Bin Chains h4
+035 Wooden Bin Empty h4
+036 Box Skulls h4
+037 Ground Debris 1 h4
+038 Ground Debris 2 h5
+039 Wall Light 1 h4
+040 Wall Light 2 h4
+041 Cistern h4
+042 Cistern Broken h4
+043 Treasure 1 h4
+044 Treasure 2 h4
+045 Box h4
+046 Corridor h4
+047 Bridge 1x3 h2
+048 Wall Ladder h4
+049 Stair h4
+050 Level h3
+051 Stair Angle h4
+052 Stair Broken h4
+053 Well Ladder Down h1
+054 Pipe Water h1
+055 Pipe Water Skulls h1
+056 Pipe Water Angle h1
+057 Pipe Water Angle Skulls h1
+058 Pipe Water T-Shaped h1
+059 Pipe Water T-Shaped Skulls h1
+060 Pipe Water Wooden Bridge h1
+061 Pipe Water Wooden Bridge Skulls h1
+062 Pipe Water End Skulls 1 h1
+063 Pipe Water End Skulls 2 h1
+064 Water Empty h1
+065 Water Empty Angle h1
+066 Water Empty T-Shaped h1
+067 Water Empty End h1
+068 Water h1
+069 Water Skulls 1 h1
+070 Water Skulls 2 h1
+071 Water Wood Plank h1
+072 Vortex h1
+073 Water Debris 1 h2
+074 Water Debris 2 h3
+075 Water Outlet On h4
+076 Water Outlet Off h4
+077 Well Empty h1
+078 Well Pipe h1
+079 Well Water h1
+080 Tunnel Ground h1
+081 Tunnel Wall h4
+082 Tunnel Wood Ground h1
+083 Tunnel Box h4
+084 Tunnel Wall Broken h4
+085 Tunnel Angle h4
+086 Tunnel Angle Pipe h4
+087 Tunnel Corner h4
+088 Tunnel End Left h4
+089 Tunnel End Right h4
+090 Column h9
+091 Column Broken h7
+092 Column Key h9
+093 Water Tentacles h6
+094 Ground Tentacles h3
+095 Wooden Bin Tentacles h6
+096 Water Straight h1
+097 Water Angle h1
+098 Water T-Shaped h1
+099 Water End Skulls h1
+100 Water Wooden Bridge h1
+== WO
+039 Grass 1 3x3 h1
+040 Grass 2 3x3 h1
+041 Grass 3 3x3 h1
+070 Water Corridor 3x3 h1
+071 Water Straight 3x3 h1
+072 Water Angle 1 3x3 h1
+073 Water Angle 2 3x3 h1
+074 Water Corner 1 3x3 h1
+075 Water Corner 2 3x3 h1
+076 Water 3x3 h1
+077 Bridge Straight 1 3x3 h12
+078 Bridge Straight 2 3x3 h12
+079 Bridge Corridor 3x3 h12
+080 Tree 1 3x3 h4
+081 Tree 2 3x3 h4
+082 Tree 3 3x3 h4
+084 Broken Bridge 1 3x3 h12
+085 Broken Bridge 2 3x3 h12
+086 Broken Bridge 3 3x3 h12
+087 Tree 4 3x3 h4
+088 Tree 5 3x3 h4
+089 Canyon 1 3x3 h12
+090 Canyon 2 3x3 h12
+091 Canyon 3 3x3 h12
+092 Canyon Angle 1 3x3 h12
+093 Canyon Angle 2 3x3 h12
+094 Canyon Water 3x3 h12
+095 Canyon Water Angle 3x3 h12
+096 Canyon Stairs 3x3 h12
+097 Canyon Tree 3x3 h12
+098 Canyon Angle Tree 3x3 h12
+099 Bridge Corridor 3x3 h12
+100 Bridge Straight 3x3 h12
+101 Bridge X-Shaped 3x3 h12
+102 Bridge 3x3 h12
+103 Bridge Borken 1 3x3 h12
+104 Bridge Borken 2 3x3 h12
+105 Bridge Borken 3 3x3 h12
+106 Wall 1 3x3 h12
+107 Wall 2 3x3 h12
+108 Wall 3 3x3 h12
+109 Angle 3x3 h12
+110 Water 1 3x3 h12
+111 Water 2 3x3 h12
+112 Water Angle 1 3x3 h12
+113 Water Angle 2 3x3 h12
+114 Corridor 1 3x3 h12
+115 Corridor 2 3x3 h12
+116 Corridor End 3x3 h12
+117 Corridor Water 1 3x3 h12
+118 Corridor Water 2 3x3 h12
+119 Corridor Water End 3x3 h12
+120 Dolmen 3x3 h4
+121 Grotto 1 3x3 h12
+122 Grotto 2 3x3 h12
+127 Ruins 1 3x3 h4
+128 Ruins 2 3x3 h4
+129 Ruins 3 3x3 h4
+130 Ruins 4 3x3 h4
+131 Ruins 5 3x3 h4
+132 Ruins 6 3x3 h4
+133 Little Wall 3x3 h4
+134 Little Angle 3x3 h4
+135 Little Corridor 3x3 h4
+136 Little Wall Tree 3x3 h4
+137 Little Angle Tree 3x3 h4
+138 Little Wall 2 3x3 h4
+139 Little End 3x3 h4
+140 Little End Water 3x3 h4
+141 Little Angle Water 3x3 h4
+142 Little Wall Water 1 3x3 h4
+143 Little Wall Water 2 3x3 h4
+144 Little Angle Water 3x3 h4
+145 Little Corridor Water 3x3 h4
+146 Medium Corridor 3x3 h8
+147 Medium Wall 3x3 h8
+148 Medium Angle Tree 3x3 h8
+149 Medium Wall Tree 3x3 h8
+150 Medium Corridor Tree 3x3 h8
+151 Medium End 3x3 h8
+152 Medium Corridor Water 3x3 h8
+153 Medium Wall Water 1 3x3 h8
+154 Medium Wall Water 2 3x3 h8
+155 Medium Angle Water 1 3x3 h8
+156 Medium Angle Water 2 3x3 h8
+157 Medium End Water 3x3 h8
+158 Little Waterfall 3x3 h4
+159 Little Waterfall Angle 1 3x3 h4
+160 Little Waterfall Angle 2 3x3 h4
+161 Little Waterfall End 3x3 h4
+162 Medium Waterfall 3x3 h8
+163 Medium Waterfall Angle 1 3x3 h8
+164 Medium Waterfall Angle 2 3x3 h8
+165 Medium Waterfall End 3x3 h8
+166 Tall Waterfall 3x3 h12
+167 Tall Waterfall Angle 1 3x3 h12
+168 Tall Waterfall Angle 2 3x3 h12
+169 Tall Waterfall End 3x3 h12
+170 Low Waterfall 1 3x3 h4
+171 Low Waterfall 2 3x3 h4
+172 Low Waterfall 3 3x3 h4
+173 Low Waterfall 4 3x3 h4
+174 Low Waterfall 5 3x3 h4
+175 Medium Waterfall 1 3x3 h8
+176 Medium Waterfall 2 3x3 h8
+177 Medium Waterfall 3 3x3 h8
+178 Medium Waterfall 4 3x3 h8
+179 Medium Waterfall 5 3x3 h8
+180 High Waterfall 1 3x3 h12
+181 High Waterfall 2 3x3 h12
+182 High Waterfall 3 3x3 h12
+183 High Waterfall 4 3x3 h12
+184 High Waterfall 5 3x3 h12
+185 Wooden Bridge 1 3x3 h4
+186 Wooden Bridge 2 3x3 h4
+187 Wooden Bridge 3 3x3 h4
+188 Wooden Bridge 4 3x3 h4
+189 Bridge Water 1 3x3 h12
+190 Bridge Water 2 3x3 h12
+191 Bridge Water 3 3x3 h12
+192 Bridge Water 4 3x3 h12
+193 Medium Water Corrdior Wood 3x3 h8
+194 Medium Angle 3x3 h8
+195 Medium Corridor 3x3 h8
+196 Water Straight 2 Corners 3x3 h1
+197 Water 3 Corners 3x3 h1
+198 Water 4 Corners 3x3 h1
+199 Water Straight Right Corner 3x3 h1
+200 Water Straight Left Corner 3x3 h1
+201 Low Corridor Waterfall 3x3 h4
+202 Medium Corridor Waterfall 3x3 h8
+203 High Corridor Waterfall 3x3 h12
+204 Low Water Corner 1 3x3 h4
+205 Low Water Corner 2 3x3 h4
+206 Low Water Corner 3 3x3 h4
+207 Medium Water Corner 1 3x3 h8
+208 Medium Water Corner 2 3x3 h8
+209 Medium Water Corner 3 3x3 h8
+210 High Water Corner 1 3x3 h12
+211 High Water Corner 2 3x3 h12
+212 High Water Corner 3 3x3 h12
+213 Watferfall Start 3x3 h1
+214 Mushrooms 1 3x3 h1
+215 Mushrooms 2 3x3 h1
+216 Bones 1 3x3 h1
+217 Bones 2 3x3 h1
+218 Bones 3 3x3 h1
+219 Rock 1 3x3 h1
+220 Rock 2 3x3 h1
+221 Rock 3 3x3 h1
+222 Small Crater 1 3x3 h1
+223 Small Crater 2 3x3 h1
+224 Small Crater 3 3x3 h1
+225 Dirt Ground 1 Corner 3x3 h1
+226 Dirt Ground 3 Corners 3x3 h1
+227 Dirt Ground 4 Corners 3x3 h1
+228 Dirt Ground Straight 3x3 h1
+229 Dirt Ground Straight Pines 3x3 h1
+230 Dirt Ground Straight Left Corner 3x3 h1
+231 Dirt Ground Straight Right Corner 3x3 h1
+232 Dirt Ground Straight 2 Corners 3x3 h1
+233 Dirt Ground Angle 3x3 h1
+234 Dirt Path 3x3 h1
+235 Dirt Path Pines 3x3 h1
+236 Dirt Path Angle 3x3 h1
+237 Dirt Path End 3x3 h1
+238 Dirt Ground 2 Corners 3x3 h1
+239 Water End 3x3 h1
+701 Level Expert 1 3x3 h3
+702 Level Expert 2 3x3 h3
+703 Level Expert 3 3x3 h3
+704 Level Expert 4 3x3 h3
+705 Level Expert 5 3x3 h3
+801 Tall Level 3x3 h9
+802 Medium Level 3x3 h6
+803 Small Level 3x3 h3

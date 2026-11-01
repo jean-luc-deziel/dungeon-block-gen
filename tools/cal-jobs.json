@@ -1,0 +1,6 @@
+[{"code":"UD-001","hint":"wall"},{"code":"UD-014","hint":"angle"},{"code":"UD-013","hint":"angle"},{"code":"UD-012","hint":"corridor"},{"code":"UD-010","hint":"wall"},{"code":"UD-037","hint":"wall"},
+{"code":"LC-001","hint":"wall"},{"code":"LC-003","hint":"angle"},{"code":"LC-006","hint":"corner"},
+{"code":"LC-098","hint":"wall","ref":"LC-092"},{"code":"LC-096","hint":"angle","ref":"LC-092"},{"code":"LC-095","hint":"corner","ref":"LC-092"},
+{"code":"MH-026","hint":"l-straight","ref":"MH-001"},{"code":"MH-028","hint":"l-angle","ref":"MH-001"},{"code":"MH-029","hint":"l-end","ref":"MH-001"},
+{"code":"MH-052","hint":"l-straight","ref":"MH-001"},{"code":"MH-053","hint":"l-angle","ref":"MH-001"},{"code":"MH-050","hint":"wall","ref":"MH-045"},{"code":"MH-051","hint":"angle","ref":"MH-045"},
+{"code":"MH-062","hint":"wall"},{"code":"MH-065","hint":"angle"},{"code":"MH-067","hint":"corridor"},{"code":"MH-068","hint":"end"},{"code":"CD-053","hint":"wall"},{"code":"CD-055","hint":"corridor"},{"code":"CD-056","hint":"end"}]

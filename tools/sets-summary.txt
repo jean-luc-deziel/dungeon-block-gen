@@ -1,0 +1,264 @@
+  (dropped edge family "dirt grass" without full tile)
+  (dropped edge family "rock grass" without full tile)
+== CD "Colossal Dungeon (XL)" style=wilds scale=3 mainGround=""
+  grounds: "dirt"[002,003] "grass"[027] ""[001]
+  wall "medium" edge h7 ground=- base[063,062,064,061] decor[065,067,178,068,177,176,175,066,165,167,166] torch[] doors[]
+  wall "low" edge h4 ground=- base[056,053,054,055] decor[170,171,174,172,173] torch[] doors[]
+  wall "tall" edge h10 ground=- base[074,075,072,073] decor[181,179,077,085,079,081,076,082,187,183,184,180,084,185,186,083,182,080,078] torch[] doors[]
+  edge "grass" full[027] pieces[034,028,030,031] decor[]
+  edge "water" full[039,040] pieces[] decor[042,049,047,041,048,050,051,052]
+  scatter: 045 Dangerous Water 3, 043 Dangerous Water 1, 044 Dangerous Water 2, 046 Dangerous Water Monster Bones
+  props: 010 Ground Borders Horns, 037 Grass Ruins
+  trees: 036 Grass Tree
+  columns: 134 Top Column Key, 133 Column Broken, 131 Column, 132 Column Symbol, 135 Top Column Slot, 130 Column Base
+  lights: 015 Fire 1, 014 Well Fire, 016 Fire 2
+  furniture: 011 Throne
+  hazards: 005 Ground Trap
+  treasure: 021 Gold Coffin
+  features: 023 Dirt Coffin, 022 Knight Coffin, 024 Half Buried Dwarven Statue, 026 Broken Dwarven Statue, 012 Well, 020 Open Coffin, 019 Closed Coffin, 038 Grass Dwarven Statue, 013 Well Bucket, 025 Dwarven Statue
+  on "": 164,006,007,004,008
+  on "ud": 168
+  on "dirt": 009
+  on "grass": 035
+== CS "Creepy Swamp" style=swamp scale=1 mainGround=""
+  grounds: ""[103,102] "rotten"[104,105] "grass"[035]
+  wall "" edge h4 ground= base[111,110,109] decor[112,116,117,115,072] torch[] doors[113,114]
+  wall "raised dock" edge h6 ground=- base[051,050,058,056] decor[053,052,067,065,054,068,055,069,057] torch[063,060,059,061,066,064,062] doors[]
+  wall "tall" edge h9 ground=- base[130,129,131] decor[132,135,136] torch[] doors[134,133]
+  wall "palisade" edge h6 ground=- base[070,075,071,073] decor[074] torch[] doors[]
+  edge "water" full[001] pieces[032,029,031,028,034,027,030,033,026] decor[015,007,013,039,078,076,006,005,009,010,012,004,008,002,077,014,016,003,011]
+  scatter: 021 Crocodil Tail, 042 Dock Grass, 041 Dock 2, 049 Broken Raised Dock 2, 043 Broken Dock, 040 Dock 1
+  props: 048 Broken Raised Dock 1, 047 Raised Dock
+  trees: 106 Ground Tree
+  lights: 120 Fireplace Lit, 141 Tall Fireplace Lit, 121 Fireplace Lit Symbols, 140 Tall Candles Unlit, 142 Tall Fireplace Lit Symbols, 124 Candles Lit, 144 Tall Fireplace Unlit Symbols, 143 Tall Fireplace Unlit, 122 Fireplace Unlit, 123 Fireplace Unlit Symbols, 125 Candles Unlit, 139 Tall Candles Lit
+  furniture: 118 Shelves 1, 108 Table Symbol, 107 Table, 138 Tall Shelves 2, 137 Tall Shelves 1, 119 Shelves 2
+  hazards: 044 Tentacles Dock
+  big: 024 Long Water Tail Bone, 128 Broken Bed, 025 Long Water Body Bone
+  on "grass": 038
+== DE1 "Ultimate Dungeon Extension 1" style=dungeon scale=1 mainGround=""
+  grounds: "melting"[012] "bones"[049,048] ""[001,135]
+  wall "" edge h4 ground= base[007,002,003,004] decor[063,062,084,059,086,061,064,085,082,081,083,060,053,054,055,065,072,066,069] torch[] doors[095,098]
+  wall "bones" edge h4 ground=bones base[052,050,051] decor[] torch[] doors[]
+  wall "melting" edge h4 ground=melting base[013,014,015] decor[] torch[] doors[]
+  edge "lava" full[016] pieces[022,028,027,024,023,025,026,021,029,020,031,030] decor[019,008,033,017,018,032]
+  edge "bones river" full[036,035] pieces[044,037,040,039,043,047,042,046,045,038,041] decor[]
+  props: 120 White Dragon, 122 Dragon Broken, 119 Green Dragon, 121 Black Dragon, 034 Lavafall, 116 Tall Rock, 117 Red Dragon, 123 Dragonborn, 118 Blue Dragon
+  columns: 114 Metal Column Key, 115 Column Broken, 112 Column Key, 113 Metal Column, 111 Column
+  lights: 088 Fire Dragon Fountain, 067 Torch Lit, 068 Torch Unlit
+  furniture: 134 Anvil
+  hazards: 075 Closed Saw Trap, 079 Open Bear Trap, 077 Closed Spike Trap, 078 Open Spike Trap, 076 Open Saw Trap, 080 Closed Bear Trap, 074 Open Hole Pit Trap, 073 Closed Hole Pit Trap
+  treasure: 057 Chest Treasure, 058 Chest Open, 056 Chest Closed
+  features: 133 Death Statue, 100 Magic Mirror, 099 Mirror, 087 Dragon Fountain
+  big: 126 Draped Altar, 125 Dragon Altar, 124 Dragon Skull, 106 Stone Forge, 103 Pentacle, 102 Big Clock, 105 Telescope, 104 Pentacle Spirits
+  stairs: 089 Stairs Down, 092 Ladder Down
+== ET "Egyptian Temple" style=dungeon scale=1 mainGround=""
+  grounds: "sand"[054] "cracked"[002,003] ""[001] "paved"[005,004] "treasure"[032,033] "patterned"[007,006]
+  wall "" edge h4 ground= base[010,009,011,015,013,008] decor[016,187,184,017,185,014,044,045,029,026,027,028,025,024,037,038,039,035,036,040,041] torch[031,022,030,023,127,128] doors[094]
+  wall "tall" edge h9 ground=- base[121,117,123,115,116,119] decor[137,133,131,141,122,145,140,118,132,129,136,134,142,139,138,124,130,143,135,144,125] torch[160,161] doors[156]
+  wall "sand" edge h4 ground=sand base[053,050,051,052] decor[071] torch[] doors[070]
+  edge "water sand" full[098] pieces[103,104,106,102,105] decor[099,101]
+  scatter: 100 Double Water Lily, 081 Snake 2, 080 Snake 1
+  props: 148 Tall Horus Scepter, 149 Tall Broken Horus, 183 Sand Ruin 2, 147 Tall Horus Spear
+  trees: 058 Cactus 2, 057 Cactus 1, 059 Cactus 3
+  columns: 163 Column, 164 Column Key, 162 Broken Column, 165 Tall Column Key
+  hazards: 069 Sand Tornado, 049 Ground Stake Trap
+  treasure: 152 Tall Treasure Pharaoh Sarcophagus, 087 Treasure Pharaoh Sarcophagus
+  features: 091 Broken Horus Statue, 088 Mummy Pharaoh Sarcophagus, 090 Horus Statue Scepter, 167 Broken Obelisk, 089 Horus Statue Spear, 150 Tall Closed Pharaoh Sarcophagus, 151 Tall Opened Pharaoh Sarcophagus, 085 Closed Pharaoh Sarcophagus, 166 Obelisk, 153 Tall Mummy Pharaoh Sarcophagus, 086 Opened Pharaoh Sarcophagus
+  big: 170 Unloaded Ancient Crane, 084 Mummy Scarab Sarcophagus, 171 Loaded Ancient Crane, 082 Closed Scarab Sarcophagus, 168 Anubis, 169 Sphinx, 083 Opened Scarab Sarcophagus
+  stairs: 113 Stairs Down, 114 Tall Stairs Down
+  on "sand": 065,079,064,063,182,066,061,062,067,056,068,055
+  on "": 046,043,048,047
+  on "treasure": 034
+== HG "Haunted Graveyard (Christian Version)" style=town scale=1 mainGround=""
+  grounds: "catacombs"[127,126] "crypt"[078,080,077,076,075] ""[003,001,002] "soil"[069]
+  wall "crypt" edge h4 ground=crypt base[095,086] decor[090,091,101,094,093,089,088,092,096,018,017,016,015,103,087] torch[] doors[119]
+  wall "fences" edge h8 ground=- base[024,022] decor[025,023] torch[] doors[021]
+  wall "tall crypt" edge h9 ground=- base[117,102] decor[106,107,110,109,118,104,105,112,108,111] torch[] doors[120]
+  wall "low" edge h2 ground=- base[008,007,010] decor[009] torch[] doors[]
+  wall "catacombs" edge h4 ground=catacombs base[129,136,128,133,134] decor[130] torch[] doors[]
+  props: 081 Book, 063 Vase 1, 079 Crypt Ground Broken 2, 064 Vase 2
+  trees: 059 Tree 4, 057 Tree 2, 058 Tree 3, 056 Tree 1
+  columns: 142 Thin Column, 145 Column Key, 144 Column, 143 Thin Column Key
+  lights: 100 Crypt Light Off, 014 Light, 116 Tall Crypt Light Off, 115 Tall Crypt Light On, 131 Catacombs Light, 099 Crypt Light On
+  furniture: 085 Table Symbol, 084 Table, 082 Bench, 083 Round Bench
+  hazards: 114 Tall Crypt Trap Off, 132 Catacombs Trap, 098 Crypt Trap Off, 097 Crypt Trap On, 113 Tall Crypt Trap On
+  treasure: 062 Vase Treasure, 065 Mausoleum Treasure, 013 Fountain Treasure
+  features: 042 Tomb 8, 011 Fountain Empty, 036 Tomb 2, 051 Tomb 17, 050 Tomb 16, 048 Tomb 14, 047 Tomb 13, 046 Tomb 12, 049 Tomb 15, 052 Tomb 18, 055 Tomb 21, 040 Tomb 6, 044 Tomb 10, 054 Tomb 20, 060 Statue 1, 066 Mausoleum Skulls, 041 Tomb 7, 038 Tomb 4, 067 Mausoleum, 039 Tomb 5, 043 Tomb 9, 012 Fountain Water, 061 Statue 2, 037 Tomb 3, 053 Tomb 19, 045 Tomb 11, 035 Obelisk
+  big: 070 Closed Coffin, 068 Double Mausoleum, 073 Magic Coffin, 071 Opened Coffin, 074 Knight Coffin, 139 Big Fountain Water, 072 Coffin Hole, 138 Big Fountain Empty
+  on "": 006,005,004
+== HG2 "Haunted Graveyard 2 (Non-Denominational Version)" style=dungeon scale=1 mainGround=""
+  grounds: "crypt"[080,075,078,076,077,079] ""[003,002,001] "catacombs"[126,127]
+  wall "crypt" edge h4 ground=crypt base[086,095] decor[091,096,090,088,092,094,101,093,089,103,087,015,018,016,017] torch[] doors[119]
+  wall "catacombs" edge h4 ground=catacombs base[133,129,128,134,136] decor[130] torch[] doors[]
+  wall "low" edge h2 ground=- base[007,010,008] decor[009] torch[] doors[]
+  wall "fences" edge h8 ground=- base[024,022] decor[023,025] torch[] doors[021]
+  wall "tall crypt" edge h8 ground=- base[117,102] decor[104,109,111,107,112,118,110,108,106,105] torch[] doors[120]
+  props: 063 Vase 1, 064 Vase 2, 081 Book
+  trees: 056 Tree 1, 059 Tree 4, 058 Tree 3, 057 Tree 2
+  lights: 014 Light, 131 Catacombs Light, 100 Crypt Light Off, 115 Tall Crypt Light On, 116 Tall Crypt Light Off, 099 Crypt Light On
+  furniture: 084 Table, 082 Bench, 083 Round Bench, 085 Table Symbol
+  hazards: 113 Tall Crypt Trap On, 114 Tall Crypt Trap Off, 097 Crypt Trap On, 098 Crypt Trap Off, 132 Catacombs Trap
+  treasure: 062 Vase Treasure, 013 Fountain Treasure, 065 Mausoleum Treasure
+  features: 039 Tomb 5, 011 Fountain Empty, 042 Tomb 8, 052 Tomb 18, 048 Tomb 14, 053 Tomb 19, 040 Tomb 6, 055 Tomb 21, 051 Tomb 17, 047 Tomb 13, 066 Mausoleum Skulls, 045 Tomb 11, 050 Tomb 16, 054 Tomb 20, 012 Fountain Water, 049 Tomb 15, 046 Tomb 12, 044 Tomb 10, 067 Mausoleum, 041 Tomb 7, 061 Statue 2, 043 Tomb 9, 038 Tomb 4, 060 Statue 1, 035 Obelisk, 036 Tomb 2, 037 Tomb 3
+  big: 071 Opened Coffin, 073 Haunted Coffin, 072 Coffin Hole, 070 Closed Coffin, 074 Knight Coffin, 068 Double Mausoleum, 138 Big Fountain Empty, 139 Big Fountain Water
+  on "": 005,004,006,069
+== IS "Infinite Spaceship" style=dungeon scale=1 mainGround=""
+  grounds: "garage"[118] ""[001] "tunnel"[056]
+  wall "tunnel" edge h4 ground=tunnel base[061,045,059,057,044,060,009] decor[063,058,010,011,133,025,026,024,006,039,042,043,041,095,004] torch[008,007] doors[062]
+  props: 104 Small Reactor
+  trees: 038 Plant
+  columns: 127 Column, 126 Column Broken, 128 Column Key
+  furniture: 067 Computer 2, 036 Cryogenic Bed Broken, 069 Computer 4, 015 Wardrobe 2, 030 Table Food 2, 016 Wardrobe 3, 028 Table, 134 Indoor Machine Gun, 027 Chair, 040 Box, 020 Lockers 4, 034 Cryogenic Bed Closed, 065 Captain Chair 2, 066 Computer 1, 035 Cryogenic Bed Opened, 132 Box Classic Ground, 137 Broken Indoor Machine Gun, 019 Lockers 3, 064 Captain Chair 1, 018 Lockers 2, 068 Computer 3, 014 Wardrobe 1, 023 Medical Cart, 017 Lockers 1, 029 Table Food 1, 037 Machine
+  big: 102 Big Reactor 1, 031 Bed, 123 Garage Machine 1, 115 Machine Gun, 124 Garage Machine 2, 021 Medical Bed 1, 022 Medical Bed 2, 125 Garage Machine 3, 103 Big Reactor 2
+  stairs: 054 Ladder Down
+  on "": 119,117,122
+  on "garage": 120,121
+== LC "Lost Cave" style=cave scale=1 mainGround=""
+  grounds: "crystal"[036,037,038] "bones"[044,043,045] "mushrooms"[052,050,051] "rocks"[033,032] "stalagmite"[010,011] ""[008,007,009]
+  wall "" link h4 ground= base[001,005,004,003,002,006] decor[072,071] torch[] doors[]
+  wall "crystal" edge h4 ground=crystal base[041,042,040] decor[] torch[] doors[]
+  wall "bones" edge h4 ground=bones base[047,046,049,048] decor[] torch[] doors[]
+  wall "mine" edge h4 ground=- base[073,077,078,074,075] decor[076] torch[] doors[083]
+  wall "stalagmite" edge h4 ground=stalagmite base[014,013,012,015] decor[] torch[] doors[]
+  wall "mushrooms" edge h4 ground=mushrooms base[056,054,053,055] decor[] torch[] doors[]
+  wall "flat" edge h4 ground=- base[109,107,108] decor[] torch[] doors[]
+  edge "water" full[092] pieces[096,095,098,099,097] decor[100,090,094,091,093,101]
+  link "water path" [105,102,103,104,101]
+  link "railway" [020,018]
+  scatter: 019 Railway Broken
+  props: 031 Wagon Tilted, 030 Wagon Rocks, 084 Rock Debris 1, 025 Railway Curved Down, 024 Railway Up, 028 Wagon Empty, 023 Railway Curved Up, 085 Rock Debris 2, 029 Wagon Crystals, 069 Big Rock 1, 081 Mine Tunnel, 070 Big Rock 2
+  columns: 017 Stalagmite Column Key, 089 Column Key, 088 Column, 016 Stalagmite Column
+  lights: 079 Mine Torch Lit, 080 Mine Torch Extinguished
+  on "rocks": 034
+== MH "Majestic Highlands (XL)" style=wilds scale=3 mainGround="grass"
+  grounds: "dirt"[015] "grass"[001]
+  wall "high" edge h12 ground=- base[120,122,118,121,119,123,117] decor[] torch[] doors[]
+  wall "medium" edge h8 ground=- base[093,089,095,091] decor[094,092,090] torch[] doors[]
+  wall "low" edge h4 ground=- base[062,065,068,063,067] decor[064,066] torch[] doors[]
+  edge "dirt ground" full[015] pieces[017,021,019,016,018,020] decor[]
+  edge "water" full[045] pieces[047,051,048,049,050,046] decor[044]
+  link "river" [057,053,052]
+  link "dirt path" [028,029,026]
+  scatter: 010 Medium Ruins 1, 036 Dragon Body Bones, 035 Dragon Head Bones, 009 Small Ruins, 013 Tall Ruins 2, 037 Dragon Tail Bones
+  props: 012 Tall Ruins 1, 038 Little Rock, 040 Big Rock 2, 011 Medium Ruins 2, 039 Big Rock 1
+  trees: 033 Mushrooms 1, 007 Giant Pine, 034 Mushrooms 2, 006 Pines 3, 005 Pines 2, 004 Pines 1
+  lights: 031 Lit Campfire, 032 Unlit Campfire
+  furniture: 041 Small Crater 1, 043 Small Crater 3, 030 Cart Ruins, 042 Small Crater 2
+  features: 014 Dolmens
+  on "dirt": 027,002,026,003
+  (dropped edge family "ruins" without full tile)
+  (dropped edge family "ruins small" without full tile)
+== MN "Mythic Northlands (XL)" style=wilds scale=3 mainGround="snow"
+  grounds: "snow"[001]
+  wall "low ice" edge h4 ground=- base[115,120,116,121,114,118] decor[160,159,158] torch[] doors[]
+  wall "low snow" edge h4 ground=- base[112,113,111,105,106,107,109] decor[] torch[] doors[]
+  wall "medium ice" edge h8 ground=- base[134,137,132,131,136] decor[] torch[] doors[]
+  wall "medium snow" edge h8 ground=- base[122,129,130,128,124,123,126] decor[] torch[] doors[]
+  wall "tall trees" edge h12 ground=- base[147,148,149] decor[] torch[] doors[]
+  wall "tall ice" edge h12 ground=- base[157,151,152,156,154,150] decor[] torch[] doors[]
+  wall "tall snow" edge h12 ground=- base[139,138,140,142,145,144,146] decor[] torch[] doors[]
+  wall "tall spikes" edge h12 ground=- base[164,162,163] decor[] torch[] doors[]
+  edge "water snow" full[023] pieces[025,027,026,024,029,028] decor[034,035]
+  edge "water ice" full[023] pieces[036,037,043,041,042,038,039,040] decor[]
+  link "rock path" [010,012,013,011,009]
+  link "snow river" [030,031,032,033]
+  scatter: 005 Uneven Snow Large, 101 Stalactite Huge, 085 Mammoth Bones, 084 Boat Wreck Front, 078 House Ruins Small, 096 Magic Portail, 086 Mammoth Rib Cage, 004 Uneven Snow Medium 2, 100 Stalactite Large 2, 093 Frozen Corpses 3, 003 Uneven Snow Medium 1, 088 Mammoth Tusk Small, 002 Uneven Snow Small, 083 Boat Wreck 2, 073 Ruins Large, 092 Frozen Corpses 2, 095 Giant Knight, 099 Stalactite Large 1, 079 House Ruins Large, 097 Stalactite Small, 090 Dragon Skull, 077 Ruins U-Shaped, 089 Mammoth Tusk Large, 094 Giant Sword, 091 Frozen Corpses 1, 065 Mythic Relic, 087 Mammoth Skull, 082 Boat Wreck 1, 098 Stalactite Medium
+  trees: 055 Trees Medium, 054 Tree Small, 057 Trees Tall 2, 056 Trees Tall 1
+  lights: 061 Hand Fire Unlit, 059 Campfire Unlit, 060 Hand Fire Lit, 058 CampFire Lit
+  features: 063 Mythic Totem Tall, 062 Mythic Totem Small, 064 Two Mythic Totems
+  on "ice": 071,020,017,072,015,021,022,070,018,019,016,014
+  on "snow": 068,103,102,067,104,069,066
+  on "snowy rock": 007,006,008
+== MT1 "Medieval Town 1" style=town scale=1 mainGround=""
+  grounds: "pavement"[001,002] ""[003] "wood"[014]
+  wall "" edge h4 ground= base[037,036,035,038] decor[041,040,097,098,134,052,051,050,133,135,136] torch[039] doors[043,042]
+  wall "tall" edge h9 ground=- base[093,089,091,092] decor[090,095,094,053,054,055] torch[104] doors[096]
+  edge "ground" full[003] pieces[005,006,009,004,007,008] decor[]
+  link "path" [011,013,012]
+  scatter: 025 Food, 023 Wooden Plank, 026 Rare Spices, 027 Breads, 024 Potions, 046 Bar Shield, 044 Bar Empty, 073 Bath Empty, 074 Bath Water, 045 Bar Plates
+  props: 105 Tall Bath Objects, 070 Chandelier Off, 101 Tall Buffet, 075 Bath Objects, 028 Potion Market, 047 Tall Bar Empty, 031 Bread Market, 030 Rare Spice Market, 029 Food Market, 048 Tall Bar Bottle, 069 Chandelier On, 068 Buffet
+  lights: 148 Fireplace Tall, 066 Pig Fireplace, 146 Fireplace Unlit Tall, 147 Fireplace, 099 Tall Pig Fireplace, 016 Light On, 017 Light Off, 100 Tall Skull Fireplace, 067 Skull Fireplace, 145 Fireplace Unlit
+  furniture: 076 Wardrobe, 102 Tall Big Barrel, 057 Stool, 061 Table Food, 062 Table Drink 1, 106 Tall Wardrobe, 049 Tall Bar Tablecloth, 058 Chair, 103 Tall Little Barrels, 065 Little Barrels, 064 Big Barrel, 020 Wooden Crates 2, 019 Wooden Crates 1, 059 Chair Horns, 021 Wooden Crates 3, 063 Table Drink 2, 060 Table Empty, 022 Wooden Crates 4, 056 Bar Stool
+  hazards: 072 Trap Opened, 071 Trap Closed
+  big: 107 Tall Bed, 032 Fountain Water, 033 Fountain Empty, 077 Bed
+  stairs: 082 Ladder Down, 088 Tall Ladder Down
+  on "wood": 132
+  on "": 015,014
+== MT2 "Medieval Town 2" style=town scale=1 mainGround="paved"
+  grounds: "paved"[141] "dirt"[006] "wood"[032]
+  wall "" edge h4 ground=- base[033,034,035] decor[038,039,063,073,065,031,061,037,064] torch[] doors[036]
+  wall "tall" edge h9 ground=- base[076,079] decor[078,080,083,077,084,082,098,099,100,101,102] torch[] doors[081]
+  edge "sidewalk" full[001] pieces[003,005,004,002] decor[]
+  scatter: 027 Manhole Cover, 069 Magic Symbol 2, 072 Magic Symbol 5, 026 Closed Manhole, 068 Magic Symbol 1, 070 Magic Symbol 3, 007 Little Damaged Paved, 071 Magic Symbol 4, 025 Opened Manhole, 008 Medium Damaged Paved, 009 Very Damaged Paved
+  props: 058 Library 1, 052 Lit Chandelier, 062 Flying Books Library, 103 Tall Decorative Library 1, 066 Decorative Library 1, 095 Tall Library 2, 094 Tall Library 1, 067 Decorative Library 2, 044 Wooden Screen, 105 Tall Overflowing Library, 053 Unlit Chandelier, 047 Sink, 090 Tall Lit Chandelier, 104 Tall Decorative Library 2, 097 Tall Flying Books, 060 Overflowing Library, 046 Bath With Water, 091 Tall Unlit Chandelier, 059 Library 2, 089 Tall Sink, 106 Bookstand, 020 Heraldic Banner, 045 Empty Bath
+  trees: 023 Tree, 017 Plant Box, 019 Flower Box 2, 024 Tree Trunk, 016 Plant Box 1, 022 Tall Tree, 057 House Plant 2, 056 House Plant 1, 018 Flower Box 1
+  columns: 139 Column, 138 Magic Column, 140 Column Key
+  lights: 054 Lit Magic Fireplace, 021 Street Lamp, 092 Tall Lit Magic Fireplace, 055 Unlit Magic Fireplace, 093 Tall Unlit Empty Magic Fireplace
+  furniture: 010 Bench, 051 Set Table, 088 Tall Wardrobe, 011 Barrel, 050 Table, 012 Broken Barrel, 015 Leaves Barrel, 013 Apple Barrel, 048 Chair, 049 Two Chairs, 043 Wardrobe
+  treasure: 014 Coins Barrel
+  big: 040 Desk, 137 Gazebo With Flags, 074 Telescope, 087 Tall Bed, 136 Gazebo, 085 Tall Desk, 042 Bed
+  stairs: 118 Tall Ladder Down, 116 Ladder Down, 108 Stairs Down
+  on "": 142
+== PS "Pirate Ship" style=ship scale=1 mainGround=""
+  grounds: ""[122]
+  wall "" edge h4 ground= base[052,048] decor[051,054,065,053,050,049,156,155,160,157] torch[066,067] doors[106,105]
+  wall "tall" edge h9 ground=- base[071,077] decor[072,075,079,080,076,074,095,164] torch[093,094] doors[]
+  wall "hull" edge h4 ground=- base[001,002,003] decor[005,006,012,013,014,015] torch[018,019] doors[]
+  edge "water" full[187,188] pieces[] decor[]
+  scatter: 145 Captain Wheel Skull, 139 Gangplank, 144 Captain Wheel
+  columns: 147 Column
+  furniture: 131 Chair
+  big: 170 Tall Captain Desk, 143 Rectangular Table Empty, 169 Tall Captain Bed Skull, 168 Tall Captain Bed, 141 Round Table Empty
+  stairs: 125 Ladder Down
+== RR "Ramparts & Ruins" style=town scale=1 mainGround="dirt"
+  grounds: "dirt"[001,006,007] "damaged rock"[081,080] "little damaged rock"[079] "rock"[078]
+  wall "" edge h4 ground=- base[095,096] decor[086,087,088,089,153,165,152] torch[154,155] doors[]
+  wall "tall beveled" edge h9 ground=- base[113,116] decor[117,115] torch[] doors[]
+  wall "ruined tall" edge h6 ground=- base[148,144] decor[149,147] torch[] doors[]
+  wall "ruined" edge h6 ground=- base[143,142] decor[141] torch[] doors[]
+  wall "tall" edge h9 ground=- base[103,107] decor[104] torch[] doors[]
+  edge "dirt ground grass" full[001] pieces[014,013,011,012] decor[]
+  edge "water" full[042] pieces[045,047,048,049,050,046] decor[043,044]
+  scatter: 060 Carved Stones, 138 Ruined Rampart 1, 066 Pottery, 065 Potions, 140 Ruined Rampart 3, 139 Ruined Rampart 2, 158 Catapult Balls
+  props: 137 Dirt Ground Medium Ruins, 032 Target, 164 Advanced Ramparts, 114 Tall Beveled Flag, 034 Hay, 036 Gallows, 136 Dirt Ground Tall Ruins, 092 Rampart Flag, 150 Loaded Crossbow, 059 Carved Stone Block, 063 Weapons, 151 Unloaded Crossbow, 058 Grindstone, 033 Target Arrows
+  trees: 040 Tree Trunk 1, 041 Tree Trunk 2, 039 Little Poplar Tree, 037 Tall Poplar Tree, 038 Medium Poplar Tree
+  lights: 094 Rampart Light Unlit, 157 Unlit Brazier, 093 Rampart Light Lit, 098 Light Unlit, 105 Tall Light Lit, 097 Light Lit, 156 Lit Brazier, 106 Tall Light Unlit
+  furniture: 062 Two Stools, 064 Barrels, 057 Anvil, 056 Tools Table, 061 Stool, 068 Set Table, 067 Empty Table
+  hazards: 031 Grass Trap, 018 Grass Hole Trap
+  big: 169 Loaded Giant Crossbow, 160 Fired Catapult, 168 Unloaded Giant Crossbow, 055 Forge Chimney, 159 Primed Catapult
+  stairs: 118 Tall Beveled Stairs Down
+  on "dirt": 003,005,002,004
+  on "": 015,028,027,021,022,029,030,017,019,026,020,016
+  on "grass": 
+== TS "Toxic Sewer" style=dungeon scale=1 mainGround=""
+  grounds: "tunnel"[080] ""[019,021,020] "tunnel wood"[082]
+  wall "" edge h4 ground= base[029,030,001,046] decor[005,025,004,032,033,002,003,031,007,008,006,011,010,009,028,012] torch[039,040] doors[016,017,015]
+  wall "tunnel" edge h4 ground=tunnel base[081,087,085] decor[084,086] torch[] doors[018]
+  edge "water" full[068] pieces[] decor[070,071,074,069,073,093]
+  link "pipe water" [058,057,062,059,063,056,054]
+  link "water empty" [065,066,067,064]
+  link "water" [098,099,096,097]
+  scatter: 055 Pipe Water Skulls
+  props: 042 Cistern Broken, 037 Ground Debris 1, 038 Ground Debris 2, 041 Cistern
+  columns: 092 Column Key, 090 Column, 091 Column Broken
+  furniture: 083 Tunnel Box, 045 Box, 036 Box Skulls, 035 Wooden Bin Empty, 034 Wooden Bin Chains
+  hazards: 072 Vortex, 094 Ground Tentacles, 095 Wooden Bin Tentacles, 023 Ground Poison Trap
+  treasure: 043 Treasure 1, 044 Treasure 2
+  features: 077 Well Empty, 079 Well Water, 078 Well Pipe
+  stairs: 053 Well Ladder Down
+  on "": 022
+== UD "Ultimate Dungeon" style=dungeon scale=1 mainGround=""
+  grounds: ""[016,017] "prison"[057] "tiles"[045,046,047] "wood"[035]
+  wall "" edge h4 ground= base[014,012,096,001] decor[040,002,063,003,028,008,034,007,068,006,009,013,004,005,058] torch[] doors[010,011]
+  wall "small" edge h2 ground=- base[072,073] decor[070,069,071] torch[] doors[]
+  wall "prison cell" edge h8 ground=- base[056,055] decor[] torch[] doors[098,054]
+  edge "water" full[074] pieces[] decor[076,075]
+  props: 060 Torture Cage, 059 Prison Cell U-Shaped, 029 Ground Bags
+  columns: 086 Column Square, 089 Column Skulls Broken 2, 084 Column, 088 Column Skulls Broken 1, 091 Column Round Key, 090 Column Square Key, 087 Column Skulls, 085 Column Slave Chains
+  lights: 037 Torch Lit, 036 Torch Basic, 038 Torch Extinguished, 039 Brazier
+  furniture: 031 Ground Table Full, 032 Ground Table Empty, 062 Torture Chair
+  hazards: 067 Hole Trap
+  treasure: 044 Fountain Treasure
+  features: 015 Well, 042 Fountain Crystal, 077 Well Water, 043 Fountain Toxic Liquid, 041 Fountain Empty
+  big: 030 Bed 2, 061 Torture Bed, 080 Autel, 027 Bed 1, 081 Autel Without Sheet
+  on "": 035,018,048,053,051,052,065,050,066,033,049

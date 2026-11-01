@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dungeon Block Generator</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">Dungeon Block Generator</div>
+      <input id="title" class="title-input" type="text" placeholder="Map title" maxlength="120" />
+      <div class="actions">
+        <button id="btn-new" title="New empty map">New</button>
+        <button id="btn-import" title="Import a map JSON downloaded from dungeonblocksbuilder.com">Import</button>
+        <button id="btn-export" class="primary" title="Download JSON to upload on dungeonblocksbuilder.com">Export JSON</button>
+        <button id="btn-undo" title="Undo (Ctrl+Z)">Undo</button>
+        <button id="btn-redo" title="Redo (Ctrl+Y)">Redo</button>
+        <input id="file-input" type="file" accept=".json,application/json" hidden />
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <nav class="tabs">
+          <button data-tab="generate" class="active">Generate</button>
+          <button data-tab="edit">Edit</button>
+          <button data-tab="build">Build list</button>
+        </nav>
+
+        <section id="tab-generate" class="panel active">
+          <form id="gen-form" autocomplete="off">
+            <div class="row">
+              <label>Seed <input name="seed" type="number" min="0" step="1" /></label>
+              <button type="button" id="btn-dice" title="Random seed">Random</button>
+            </div>
+            <label>Tile set <select name="theme"></select></label>
+            <label>Style
+              <select name="style">
+                <option value="auto">Set default</option>
+                <option value="dungeon">Dungeon (rooms &amp; corridors)</option>
+                <option value="cave">Cave</option>
+                <option value="wilds">Wilderness</option>
+                <option value="town">Town (buildings &amp; streets)</option>
+                <option value="swamp">Swamp (islands &amp; huts)</option>
+                <option value="ship">Ship (hull on open water)</option>
+              </select>
+            </label>
+            <label>Size
+              <select name="sizePreset">
+                <option value="12">Tiny (12 x 12)</option>
+                <option value="18">Small (18 x 18)</option>
+                <option value="24" selected>Medium (24 x 24)</option>
+                <option value="36">Large (36 x 36)</option>
+                <option value="48">Huge (48 x 48)</option>
+                <option value="custom">Custom</option>
+              </select>
+            </label>
+            <div class="row custom-size">
+              <label>Width <input name="width" type="number" min="6" max="90" step="3" /></label>
+              <label>Height <input name="height" type="number" min="6" max="90" step="3" /></label>
+            </div>
+            <label>Overall shape
+              <select name="shape">
+                <option value="rectangle">Rectangle</option>
+                <option value="ellipse">Round / ellipse</option>
+                <option value="diamond">Diamond</option>
+                <option value="cross">Cross</option>
+                <option value="lshape">L-shape</option>
+                <option value="ring">Ring</option>
+                <option value="organic">Organic blob</option>
+              </select>
+            </label>
+            <fieldset class="rooms-only">
+              <legend>Rooms / buildings</legend>
+              <label class="dungeon-only">Layout
+                <select name="layout">
+                  <option value="count">Room count (size is a limit)</option>
+                  <option value="fill">Fill the whole size</option>
+                </select>
+              </label>
+              <label class="room-count">Number of rooms <span class="val" data-for="roomCount"></span>
+                <input name="roomCount" type="range" min="2" max="30" step="1" />
+              </label>
+              <label>Room size
+                <select name="roomSizePreset">
+                  <option value="3-4">Small (3-4)</option>
+                  <option value="4-6">Medium (4-6)</option>
+                  <option value="6-9">Large (6-9)</option>
+                  <option value="3-7" selected>Mixed (3-7)</option>
+                  <option value="3-11">Wild mix (3-11)</option>
+                  <option value="custom">Custom</option>
+                </select>
+              </label>
+              <div class="row custom-rooms">
+                <label>Min <input name="roomMin" type="number" min="3" max="20" /></label>
+                <label>Max <input name="roomMax" type="number" min="3" max="20" /></label>
+              </div>
+              <label>Room shapes
+                <select name="roomShapes">
+                  <option value="rect">Rectangular</option>
+                  <option value="mixed">Mixed (rect, octagon, round, cross)</option>
+                  <option value="round">Rounded</option>
+                </select>
+              </label>
+            </fieldset>
+            <fieldset class="dungeon-only">
+              <legend>Corridors</legend>
+              <label>Corridor width
+                <select name="corridorWidth">
+                  <option value="1">1 cell</option>
+                  <option value="2">2 cells (double doors)</option>
+                </select>
+              </label>
+              <label>Winding <span class="val" data-for="winding"></span>
+                <input name="winding" type="range" min="0" max="1" step="0.05" />
+              </label>
+              <label>Extra loops <span class="val" data-for="loops"></span>
+                <input name="loops" type="range" min="0" max="1" step="0.05" />
+              </label>
+              <label>Doors <span class="val" data-for="doors"></span>
+                <input name="doors" type="range" min="0" max="1" step="0.05" />
+              </label>
+            </fieldset>
+            <fieldset class="cavern-only">
+              <legend>Terrain</legend>
+              <label>Openness <span class="val" data-for="caveOpenness"></span>
+                <input name="caveOpenness" type="range" min="0" max="1" step="0.05" />
+              </label>
+              <label class="wilds-only">Elevation <span class="val" data-for="elevation"></span>
+                <input name="elevation" type="range" min="0" max="1" step="0.05" />
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Water &amp; paths</legend>
+              <label>Water <span class="val" data-for="water"></span>
+                <input name="water" type="range" min="0" max="1" step="0.05" />
+              </label>
+              <label class="paths-only">Paths / rails / trenches <span class="val" data-for="paths"></span>
+                <input name="paths" type="range" min="0" max="6" step="1" />
+              </label>
+            </fieldset>
+            <label>Decoration density <span class="val" data-for="decor"></span>
+              <input name="decor" type="range" min="0" max="1" step="0.05" />
+            </label>
+            <label class="check"><input name="baseGrid" type="checkbox" /> Base grids (BB-001) under the map</label>
+            <label class="check"><input name="stairs" type="checkbox" /> Entrance &amp; exit stairs</label>
+            <div class="row buttons">
+              <button type="submit" class="primary">Generate</button>
+              <button type="button" id="btn-reroll">New seed + generate</button>
+            </div>
+            <p id="gen-info" class="hint"></p>
+          </form>
+        </section>
+
+        <section id="tab-edit" class="panel">
+          <div class="tools">
+            <button data-tool="select" title="Select (1)">Select</button>
+            <button data-tool="place" title="Place (2)">Place</button>
+            <button data-tool="erase" title="Erase (3)">Erase</button>
+            <button data-tool="pick" title="Eyedropper (4)">Pick</button>
+          </div>
+          <div class="row">
+            <label>Level <input id="level" type="number" min="0" max="60" step="1" /></label>
+            <label>Orientation <select id="orientation">
+              <option value="0">0 (W)</option><option value="1">1 (N)</option><option value="2">2 (E)</option><option value="3">3 (S)</option>
+            </select></label>
+          </div>
+          <label class="check"><input id="auto-stack" type="checkbox" /> Stack on top of existing tiles</label>
+          <label class="check"><input id="only-below" type="checkbox" /> Hide levels above active level</label>
+          <label class="check"><input id="dim-levels" type="checkbox" /> Dim other levels</label>
+          <div class="row">
+            <button id="btn-basegrid" title="Add BB-001 grids on level 0 under all level 1 tiles">Fill base grids</button>
+          </div>
+          <div id="selection" class="selection hint">Nothing selected.</div>
+          <div class="current" id="current-element"></div>
+          <div class="palette-filters">
+            <input id="search" type="search" placeholder="Search name, code or tag..." />
+            <div class="row">
+              <select id="pack-filter"></select>
+              <select id="tag-filter"></select>
+            </div>
+          </div>
+          <div id="palette" class="palette"></div>
+          <p id="palette-info" class="hint"></p>
+        </section>
+
+        <section id="tab-build" class="panel">
+          <p id="build-summary" class="hint"></p>
+          <table class="build-table"><tbody id="build-list"></tbody></table>
+        </section>
+      </aside>
+
+      <section class="viewport">
+        <canvas id="canvas"></canvas>
+        <div class="view-controls">
+          <select id="projection" title="Projection">
+            <option value="isometric">Isometric</option>
+            <option value="top">Top-down</option>
+          </select>
+          <select id="spriteset" title="Sprite style">
+            <option value="isometric">Painted</option>
+            <option value="classic">Classic</option>
+          </select>
+          <button id="rot-left" title="Rotate view (Q)">&#x21BA;</button>
+          <button id="rot-right" title="Rotate view (E)">&#x21BB;</button>
+          <button id="zoom-out" title="Zoom out (-)">&minus;</button>
+          <button id="zoom-in" title="Zoom in (+)">+</button>
+          <button id="fit" title="Fit map (F)">Fit</button>
+          <label class="check"><input id="grid" type="checkbox" checked /> Grid</label>
+        </div>
+        <div class="status" id="status"></div>
+        <div class="help" id="help">Left-drag: pan (view) / use tool (edit) &middot; Right/middle-drag or Space+drag: pan &middot; Wheel: zoom &middot; R: rotate piece &middot; Q/E: rotate view</div>
+      </section>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
